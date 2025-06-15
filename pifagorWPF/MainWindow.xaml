@@ -1,0 +1,11 @@
+﻿<Window x:Class="pifagorWPF.MainWindow"
+           xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="clr-namespace:pifagorWPF"
+    Title="Pifagor Game" Height="600" Width="1000">
+    <Canvas Name="GameCanvas" Background="Ivory">
+        <Button Name="CheckButton" Content="Проверка" Width="100" Height="30" Canvas.Left="450" Canvas.Top="491" Click="CheckButton_Click" />
+        <Label Content="Головоломка «ПИФАГОР»" Canvas.Left="264" Canvas.Top="10" Height="48" Width="472" FontFamily="Microsoft Sans Serif" FontSize="36" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+
+    </Canvas>
+</Window>
